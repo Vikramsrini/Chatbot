@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Media Chatbot</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header Section -->
+        <div class="chat-header">
+            <h1>AI Chatbot</h1>
+        </div>
+
+        <!-- Chat Area -->
+        <div class="chat-area" id="chatBox">
+            <!-- Messages will be dynamically added here -->
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <input type="text" id="userInput" class="input-field" placeholder="Type your message...">
+            <label for="fileInput" class="file-upload-label">
+                <i class="fas fa-paperclip"></i>
+                <span>Upload File</span>
+                <input type="file" id="fileInput" class="file-upload-input" accept=".png,.jpg,.jpeg,.pdf,.txt,.mp3,.wav">
+            </label>
+            <button id="sendButton" class="btn btn-primary">Send</button>
+        </div>
+    </div>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
